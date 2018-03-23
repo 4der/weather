@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  background-image: url(./sun.jpg);
+  background-repeat: no-repeat;
+  background-position: fill;
+}
+
+.h2, .h3 {
+  color: orange;
+  text-align: center;
+  font-size: 20px;
+}
+
+#city {
+  color: white;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#temp {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#description {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#clouds {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.picture {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+	.picture {
+	width: calc(100% - 10px);
+  justify-content: center;
+	}
+	}
