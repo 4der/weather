@@ -1,9 +1,9 @@
-fetch("http://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=metric&APPID=d0583ed95147e87c4f65eb09fac0912a").then((response) => {
+fetch("https://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=metric&APPID=d0583ed95147e87c4f65eb09fac0912a").then((response) => {
 console.log(response.json())
 })
 
 
-fetch("http://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=metric&APPID=d0583ed95147e87c4f65eb09fac0912a").then((response) => {
+fetch("https://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=metric&APPID=d0583ed95147e87c4f65eb09fac0912a").then((response) => {
  return response.json()
 }).then((json) => {
 
